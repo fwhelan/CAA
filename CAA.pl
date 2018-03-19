@@ -10,7 +10,7 @@
 #Check usage
 if (($#ARGV+1) < 2) {
 	print "\nError: give me the parameters I need!\n";
-	print "Usage: CAA.pl union.txt index.txt\n";
+	print "Usage: CAA.pl intersection_list.txt index.txt\n";
 	exit;
 }
 
